@@ -1,0 +1,20 @@
+.build/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+Thumbs.db
+
+# Local agent instructions and working records (not public documentation).
+AGENTS.md
+CLAUDE.md
+INTENT.md
+PLAN.md
+REASERCH.md
+RESEARCH.md
+.agents/
+.codex/
+
+# Local preparation/provenance record; not required by the public demo.
+/data/manifest.json

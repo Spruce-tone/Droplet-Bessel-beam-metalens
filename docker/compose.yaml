@@ -1,0 +1,14 @@
+name: dbbm-demo
+
+services:
+  demo:
+    image: dbbm-demo:local
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "127.0.0.1:8890:8888"
+    volumes:
+      - ../:/workspace
+    cpus: 2
+    mem_limit: 8g
